@@ -1,0 +1,26 @@
+.become_operator{
+    background: linear-gradient( rgba(235, 196, 160, 0.9),rgba(235, 196, 160, 0.9)), url('../assets/all-images/drive.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.become_operator button{
+    background: #e9893f;
+    color: white;
+    font-weight: 600;
+    }
+
+    .become_operator-title{
+        font-size: 2.8rem;
+        color: white;
+        line-height: 65px;
+    }
+
+
+.become_operator a:hover{
+    background: #e9893f;
+    color: #5a5a5a;
+
+}    

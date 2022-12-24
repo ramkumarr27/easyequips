@@ -1,0 +1,83 @@
+.footer {
+    background: #414242;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.footer_logo i {
+    color: white;
+font-weight: 400;
+}
+
+.footer_logo span{
+    color: white;
+    font-weight: 500;
+    padding-bottom: 20px;
+    /* border-bottom: 0.5px solid rgb(146, 141, 141); */
+}
+
+.footer_link-title{
+    color:#e28743;
+   padding: 10px;
+    border-bottom : 0.5px solid rgb(146, 141, 141);
+    /* border-radius: 5px; */
+}
+
+.footer_logo-content{
+    color: white;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.quick_link li {
+    border: none !important;
+    background: transparent !important;
+    /* border-bottom: 1px solid white; */
+}
+
+.quick_link a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+    font-weight: 300;
+}
+
+.quick_link a:hover{
+    color: #e28743;
+}
+
+.office-info{
+    color: white;
+    font-weight: 300;
+}
+
+.newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 50px;
+
+}
+
+.newsletter input{
+background: transparent;
+border: none;
+outline: none;
+color: white;
+}
+
+.newsletter input::placeholder{
+    /* font-size: 0.8rem; */
+    color: rgb(187, 187, 187);
+}
+
+.newsletter span i{
+    color: white;
+    cursor: pointer;
+}
+
+.footer_bottom{
+    border-top: 0.5px solid rgb(146, 141, 141);
+}

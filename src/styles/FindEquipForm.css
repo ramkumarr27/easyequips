@@ -1,0 +1,82 @@
+.find_equips-left{
+    background: linear-gradient(rgba(223, 196, 152, 0.9),rgb(223, 196, 152, 0.9)),url('../assets/all-images/vehicles-images.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 35px;
+}
+
+.form_group{
+    width: 30%;
+    margin-bottom: 0;
+}
+
+.form_group input{
+    border: 1px solid #7c8a972a;
+    padding: 8px 12px;
+    width: 100%;
+    outline: none;
+}
+
+.form_group input::placeholder{
+    color: #454d55;
+}
+.form{
+    background: white;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.select_group{
+    width: 30%;
+}
+
+.select_group select{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #7c8a972a;
+    outline: none;
+    color: #454d55;
+}
+
+.hero_slider-section{
+    position: relative;
+    z-index: 10;
+    margin-bottom: 200px;
+}
+
+.hero_form{
+    position: absolute;
+    bottom: -150px;
+    z-index: 11;
+    width: 100%;
+}
+
+.form_row{
+    background: #fff;
+    box-shadow: 5px 5px 15px -5px #454d55;;
+} 
+
+.required_time::before{
+    content: 'Required time';
+    margin-right: 0.8rem;
+    color: #454d55;
+}
+
+.find_equip-btn button{
+    background: #e47d2f !important;
+    color: #fff; 
+    padding: 8px 15px;
+    width: 100%;
+     border: none;
+     border-radius: 5px;
+    outline: none; 
+    transition: .3s;
+}
+
+.find_equip-btn button:hover{
+    /* background: #ee9653; */
+    color:  #3a3b3b; 
+}

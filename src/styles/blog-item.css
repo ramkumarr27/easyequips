@@ -1,0 +1,43 @@
+.blog_item{
+    bottom: 1px solid #7c8a972e;
+}
+
+.blog_time{
+    border-top: 1px solid #000;
+}
+
+.read_more{
+    color: #f59043 ;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.read_more:hover{
+    color: #5a5c5a;
+}
+
+.blog_time span i{
+    color: #f59043 ;
+}
+
+.blog_author{
+    color: #000d6b;
+    font-weight: 600;
+}
+
+.blog_author i{
+    font-weight: 500;
+}
+
+.blog_title{
+    text-decoration: none;
+    color: #000d6b;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.blog_title:hover{
+    color: #f59043;
+}

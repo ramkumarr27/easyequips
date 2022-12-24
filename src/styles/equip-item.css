@@ -1,0 +1,50 @@
+.equip_item{
+    border: 1px solid #7c8a9736;
+    padding: 20px;
+    background-repeat: 5px;
+}
+
+.equip_item-info span i {
+    color:#e28743;
+    font-style: 1.1em;
+}
+
+.equip_item-btn{
+    border-radius: 0;
+    border: none;
+    outline: none;
+    background: #f59953;
+    padding: 8px 0px;
+}
+.equip_item-btn a:hover{
+    color: #4b4c4d;
+    }
+
+
+.equip_btn-details{
+    color: white;
+    background:  #5a5c5d;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.equip_btn-details a:hover{
+color: #e28743;
+}
+.equip_item-btn a {
+    color: white;
+    text-decoration: none;
+}
+.equip_btn-rent{
+    border-radius: 4px 0px 0px 4px;
+}
+
+.equip_item-content h4{
+font-size: 1.8 rem;
+}
+
+.equip_item-content h6{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
